@@ -1,0 +1,5 @@
+local args = {
+	workspace:WaitForChild("Objects"):WaitForChild("Equipment"):WaitForChild("Cybertruck"),
+	workspace:WaitForChild("Objects"):WaitForChild("Equipment"):WaitForChild("Cybertruck"):WaitForChild("Chassis"):WaitForChild("Seats"):WaitForChild("DriveSeat")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Larry"):WaitForChild("FNCEnterEquipment"):InvokeServer(unpack(args))
